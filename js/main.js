@@ -6,7 +6,7 @@ let myIcon = L.icon({
     iconSize: [45, 52],
     iconAnchor: [22, 52],
     popupAnchor: [0, -52],
-})
+});
 
 L.tileLayer (
   'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}',
